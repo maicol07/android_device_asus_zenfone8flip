@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=zenfone8
+DEVICE=zenfone8flip
 VENDOR=asus
 
 # Load extractutils and do some sanity checks

@@ -36,26 +36,26 @@ TARGET_BOOTANIMATION_SIZE := 1080p
 $(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
-$(call inherit-product, device/asus/zenfone8/device.mk)
+$(call inherit-product, device/asus/zenfone8flip/device.mk)
 
 # Discard inherited values and use our own instead.
-PRODUCT_DEVICE := zenfone8
-PRODUCT_NAME := omni_zenfone8
+PRODUCT_DEVICE := zenfone8flip
+PRODUCT_NAME := omni_zenfone8flip
 PRODUCT_BRAND := asus
-PRODUCT_MODEL := ASUS_I006D
+PRODUCT_MODEL := ASUS_I004D
 PRODUCT_MANUFACTURER := asus
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
 
-TARGET_DEVICE := WW_I006D
-PRODUCT_SYSTEM_DEVICE := ASUS_I006D
-PRODUCT_SYSTEM_NAME := WW_I006D
+TARGET_DEVICE := WW_I004D
+PRODUCT_SYSTEM_DEVICE := ASUS_I004D
+PRODUCT_SYSTEM_NAME := WW_I004D
 
 OMNI_PRODUCT_PROPERTIES += \
     ro.build.product=ZS590KS
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_DEVICE=ASUS_I006D \
-    PRODUCT_NAME=WW_I006D \
-    TARGET_DEVICE=ASUS_I006D \
-    TARGET_PRODUCT=WW_I006D
+    PRODUCT_DEVICE=ASUS_I004D \
+    PRODUCT_NAME=WW_I004D \
+    TARGET_DEVICE=ASUS_I004D \
+    TARGET_PRODUCT=WW_I004D

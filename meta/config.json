@@ -1,8 +1,8 @@
 {
     "model": "Zenfone 8",
-    "pageUrl":"https://dl.omnirom.org/zenfone8",
+    "pageUrl":"https://dl.omnirom.org/zenfone8flip",
     "make": "Asus",
     "image": "meta/device_image.png",
     "state": "official",
-    "device": "zenfone8"
+    "device": "zenfone8flip"
 }
